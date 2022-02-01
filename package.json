@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "cookie-parser": "^1.4.6",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   },
   "name": "cookiesapp",
   "version": "1.0.1",
   "description": "cookies app",
   "main": "cookiesapp.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node cookiesapp",
@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/samanth98/cookiesapp/issues"
   },
-  "homepage": "https://github.com/samanth98/cookiesapp#readme"
+  "homepage": "https://github.com/samanth98/cookiesapp#readme",
+  "devDependencies": {}
 }

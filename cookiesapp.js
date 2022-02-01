@@ -83,8 +83,8 @@ app.get("/deleteall", function(req, res){
 app.listen(port, function(err,res){
     if(err)
     {
-        res.send("Err in starting the server")
+        console.log("Err in starting the server")
         return
     }
-    res.send("server started at port : ")
+    console.log("server started at port : ")
 })

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2"
+  },
+  "name": "cookiesapp",
+  "version": "1.0.0",
+  "description": "cookies app",
+  "main": "cookiesapp.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

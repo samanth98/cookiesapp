@@ -4,13 +4,23 @@
     "express": "^4.17.2"
   },
   "name": "cookiesapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cookies app",
   "main": "cookiesapp.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cookiesapp",
+    "dev": "nodemon cookiesapp"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samanth98/cookiesapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samanth98/cookiesapp/issues"
+  },
+  "homepage": "https://github.com/samanth98/cookiesapp#readme"
 }
